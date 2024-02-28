@@ -1,42 +1,42 @@
 # Surge激活方法
 
 1. 点击star<br>
-      ![Star.png](Star.png)  
+      ![Star.png](/png/Star.png)  
    
 2. 检查权限及其他设置<br>
       打开设置--隐私与安全性<br>
          1. 授予终端完全磁盘访问权限<br>
-            ![完全磁盘访问权限.png](完全磁盘访问权限.png)  
+            ![完全磁盘访问权限.png](/png/完全磁盘访问权限.png)  
          2. 授予终端App管理权限<br>
-            ![App管理权限.png](App管理权限.png)  
+            ![App管理权限.png](/png/App管理权限.png)  
          3. 授予终端开发者权限<br>
-            ![开发者权限.png](开发者权限.png)  
+            ![开发者权限.png](/png/开发者权限.png)  
          4. 将安全性改为任意来源<br>
             在终端中输入 sudo spctl --master-disabl<br>
-            ![安全性.png](安全性.png)  
+            ![安全性.png](/png/安全性.png)  
          5. 将Surge安装到/Applications中<br>
-            ![安装到Applications中.png](安装到Applications中.png)
-            ![Surge.png](Surge.png)  
+            ![安装到Applications中.png](/png/安装到Applications中.png)
+            ![Surge.png](/png/Surge.png)  
          6. 关闭Surge<br>
-            ![关闭.png](关闭.png)
+            ![关闭.png](/png/关闭.png)
    
 4. 下载整个仓库<br>
       小白不知道点哪里下载整个仓库？[点我下载](https://github.com/QiuChenlyOpenSource/InjectLib/archive/refs/heads/main.zip)<br>
    
 5. 下载后一般会自动解压，如没有自动解压请手动解压<br>
-      ![双击原神启动.png](双击原神启动.png) 
+      ![双击原神启动.png](/png/双击原神启动.png) 
    
 6. 双击 原神_启动.command 后，然后输入电脑的登录密码授予脚本权限<br>
-      ![原神启动.png](原神启动.png)  
+      ![原神启动.png](/png/原神启动.png)  
    
 7. 输入 “y” 执行注入操作<br>
-      ![注入.png](注入.png)  
+      ![注入.png](/png/注入.png)  
 
 8. 出现“进程已完成”即可关闭终端<br>
-      ![关闭终端.png](关闭终端.png) 
+      ![关闭终端.png](/png/关闭终端.png) 
 
 9. 大功告成<br>
-      ![Surge激活.png](Surge激活.png)
+      ![Surge激活.png](/png/Surge激活.png)
 
 # 重点
 部分可能会出现这个报错，目前无法解决，如果遇到说明你运气极差，只能找使用正常的人要一个注入后的“Helper”文件

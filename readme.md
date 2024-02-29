@@ -95,3 +95,22 @@
 #helper文件所在路径  /Applications/Surge.app/Contents/Library/LaunchServices<br> 
       把里面的文件删了，换成使用正常的helper文件即可<br>
  # ARM芯片如果拉了最新的库，请务必使用最新版本的Surge，否则可能会有问题
+
+#Surge Mac 助手程序（Helper）异常处理方式
+
+如果 Surge Mac 助手程序（Helper）异常，会导致无法设置系统代理和无法开启增强模式。（使用 CleanMyMac 或其他清理软件强行清理可能导致该问题）
+
+请参照以下步骤修复：
+
+打开 Surge Mac 的设置界面，选择高级，选择移除助手程序（Remove Helper）。
+输入你的系统密码。
+点击打开终端（Open Terminal）。
+在终端窗口处再次输入系统密码并回车。
+重启电脑。
+打开 Surge，尝试勾选设置为系统代理，输入系统密码重新安装助手程序。
+如果依然不正常工作，且之前有使用过某些清理软件禁用 helper，请尝试执行
+
+```bash
+sudo /bin/launchctl load -w /Library/LaunchDaemons/com.nssurge.surge-mac.helper.plist
+```
+由于 macOS 是开发性系统，十分复杂，如果仍然不能正常工作，可能需要尝试重置整个系统。

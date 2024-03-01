@@ -12,7 +12,7 @@
          3. 授予终端开发者权限<br>
             ![开发者权限.png](/png/开发者权限.png)  
          4. 将安全性改为任意来源<br>
-            在终端中输入 sudo spctl --master-disabl<br>
+            在终端中输入 sudo spctl --master-disable<br>
             ![安全性.png](/png/安全性.png)  
          5. 将Surge安装到/Applications中<br>
             ![安装到Applications中.png](/png/安装到Applications中.png)
